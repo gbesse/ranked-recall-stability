@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ranked-recall-stability"
+version = "0.1.0a1"
+description = "FR: Distinguer changements de rappel et permutations de résultats ex æquo | EN: Distinguish recall changes from permutations of tied results | ES: Distinguir cambios de recuperación y permutaciones de resultados empatados"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+ranked-recall-stability = "ranked_recall_stability.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ranked_recall_stability*"]

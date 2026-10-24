@@ -1,0 +1,39 @@
+{
+  "k": 3,
+  "before": {
+    "bank_revision": "r1",
+    "context_digest": "q1",
+    "items": [
+      {
+        "id": "a",
+        "score": 0.9
+      },
+      {
+        "id": "b",
+        "score": 0.9
+      },
+      {
+        "id": "c",
+        "score": 0.5
+      }
+    ]
+  },
+  "after": {
+    "bank_revision": "r1",
+    "context_digest": "q1",
+    "items": [
+      {
+        "id": "b",
+        "score": 0.9
+      },
+      {
+        "id": "a",
+        "score": 0.9
+      },
+      {
+        "id": "d",
+        "score": 0.6
+      }
+    ]
+  }
+}
